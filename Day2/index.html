@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info & Datatype Quiz</title>
+</head>
+<body>
+    <script>
+     
+        let studentName = "Rahul";     // string
+        let totalMarks = 75;            // number
+        let isPassed = totalMarks > 40; // boolean
+
+     
+        document.write("Student Name: " + studentName + "<br>");
+        document.write("Total Marks: " + totalMarks + "<br>");
+        document.write("Passed: " + isPassed + "<br><br>");
+
+        document.write("<strong>Open the Console to see Datatype Quiz results</strong><br>");
+        console.log("Quiz - Guess the Datatype:");
+        console.log(typeof null);        // "object"
+        console.log(typeof NaN);         // "number"
+        console.log(typeof [1,2,3]);     // "object"
+        console.log(typeof {a:1});       // "object"
+        console.log(typeof (() => {}));  // "function"
+    </script>
+</body>
+</html>
